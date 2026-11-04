@@ -7,8 +7,10 @@ const NAV = [
   { label: 'صفحه اصلی', href: '#home' },
   { label: 'محصولات', href: '#products' },
   { label: 'خدمات تعمیرات', href: '#repair' },
+  { label: 'نمونه‌کارها', href: '#gallery' },
   { label: 'مقالات', href: '#articles' },
   { label: 'درباره ما', href: '#about' },
+  { label: 'سوالات متداول', href: '#faq' },
   { label: 'تماس با ما', href: '#contact' },
 ]
 

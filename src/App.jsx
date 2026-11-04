@@ -6,7 +6,9 @@ import SmartSearch from './components/SmartSearch'
 import Categories from './components/Categories'
 import Products from './components/Products'
 import RepairForm from './components/RepairForm'
+import RepairGallery from './components/RepairGallery'
 import AboutArticles from './components/AboutArticles'
+import FAQ from './components/FAQ'
 import Footer from './components/Footer'
 import { waLink } from './lib/utils'
 
@@ -30,7 +32,9 @@ export default function App() {
         <Categories />
         <Products query={query} onClear={() => setQuery('')} />
         <RepairForm />
+        <RepairGallery />
         <AboutArticles />
+        <FAQ />
       </main>
 
       <Footer />
